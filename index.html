@@ -26,12 +26,14 @@ var options = {
     "currency": "INR",
     "name": "Acme Corp",
     "description": "Test Transaction",
-    "image": "https://example.com/your_logo",
-    "order_id": "order_9A33XWu170gUtm", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+    //"image": "https://example.com/your_logo",
+    //"order_id": "order_9A33XWu170gUtm", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
     "handler": function (response){
-        alert(response.razorpay_payment_id);
-        alert(response.razorpay_order_id);
-        alert(response.razorpay_signature)
+       // alert(response.razorpay_payment_id);
+       // alert(response.razorpay_order_id);
+       // alert(response.razorpay_signature);
+        alert("payment successful");
+        
     },
     "prefill": {
         "name": "Gaurav Kumar",
